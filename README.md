@@ -10,16 +10,15 @@ Ambos os modos de acesso são classes que herdam da classe pai Usuário, que con
 O usuário precisa de login e senha de acesso. Caso o usuário não conste no banco de dados, deve fazer um registro. As informações dentro da classe Usuário são: nome, sobrenome, data de nascimento, CPF e residência (sendo esta uma classe com CEP, cidade, rua, bairro e número).
 
 # 2 Funcionalidade
-Permitir o cadastro de novos usuários. Os clientes podem fazer o próprio registro, já os admins precisam ser registrados por outro admin.
-O cliente deve escolher o dia, local de partida e destino. A seguir, verá as viagens disponíveis no dia, cada uma com seu horário e preço. 
-Ao selecionar a viagem, o cliente vê os bancos vagos. Selecionando um banco, ele parte para o pagamento. Após pagar, pode imprimir a passagem.
+- Permitir o cadastro de novos usuários. Os clientes podem fazer o próprio registro, já os admins precisam ser registrados por outro admin.
+- O cliente deve escolher o dia, local de partida e destino. A seguir, verá as viagens disponíveis no dia, cada uma com seu horário e preço. 
+- Ao selecionar a viagem, o cliente vê os bancos vagos. Selecionando um banco, ele parte para o pagamento. Após pagar, pode imprimir a passagem.
 
+- O sistema deve permitir o registro de viagem por admins, informando a data de início,  a data de fim, os terminais por onde passa e o horário estimado para passar entre cada um. 
+- Cada viagem precisa dos dados do ônibus: sua identificação, vagas livres e ocupadas. 
+- O preço das viagens é dado para o cliente com base no terminal em que ele vai entrar e no terminal em que vai sair.
 
-O sistema deve permitir o registro de viagem por admins, informando a data de início,  a data de fim, os terminais por onde passa e o horário estimado para passar entre cada um. 
-Cada viagem precisa dos dados do ônibus: sua identificação, motorista, vagas livres e ocupadas. 
-O preço das viagens é dado para o cliente com base no terminal em que ele vai entrar e no terminal em que vai sair.
-
-O Admin pode ver todos os dados das viagens, dos clientes e dos ônibus que estão no sistema.
+- O Admin pode ver todos os dados das viagens, dos clientes e dos ônibus que estão no sistema.
 
 # UML
 ![uml](https://github.com/user-attachments/assets/50a0cba3-d8bf-4c64-ae13-2bc5abbe2054)
