@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.classes.Conexao.Conexao;
-
-import entidades.Endereco;
+import com.classes.DTO.Endereco;
 
 public class EnderecoDAO {
 

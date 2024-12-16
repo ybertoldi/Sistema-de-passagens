@@ -9,10 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.classes.Conexao.Conexao;
-
-import entidades.HorarioDeFuncionamento;
-import entidades.Onibus;
-import entidades.Vaga;
+import com.classes.DTO.HorarioDeFuncionamento;
+import com.classes.DTO.Onibus;
+import com.classes.DTO.Vaga;
 
 public class OnibusDAO {
 

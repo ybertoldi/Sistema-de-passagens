@@ -1,10 +1,9 @@
 package com.classes.BO;
 
-import com.classes.DAO.ViagemDAO;
-
-import entidades.Viagem;
-
 import java.util.List;
+
+import com.classes.DAO.ViagemDAO;
+import com.classes.DTO.Viagem;
 
 public class ViagemBO {
 

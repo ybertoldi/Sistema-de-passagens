@@ -5,8 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 import com.classes.Conexao.Conexao;
-
-import entidades.Vaga;
+import com.classes.DTO.Vaga;
 
 public class VagaDAO {
 

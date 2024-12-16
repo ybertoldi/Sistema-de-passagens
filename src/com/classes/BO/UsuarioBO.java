@@ -1,10 +1,9 @@
 package com.classes.BO;
 
-import com.classes.DAO.UsuarioDAO;
-
-import entidades.Usuario;
-
 import java.util.List;
+
+import com.classes.DAO.UsuarioDAO;
+import com.classes.DTO.Usuario;
 
 public class UsuarioBO {
 

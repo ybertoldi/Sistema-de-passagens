@@ -1,7 +1,6 @@
 package com.classes.DAO;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,13 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.classes.Conexao.Conexao;
-
-import entidades.Admin;
-import entidades.Cliente;
-import entidades.Endereco;
-import entidades.Parada;
-import entidades.PontoParada;
-import entidades.Viagem;
+import com.classes.DTO.PontoParada;
+import com.classes.DTO.Viagem;
 
 public class ViagemDAO {
 

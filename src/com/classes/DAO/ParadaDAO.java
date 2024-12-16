@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.classes.Conexao.Conexao;
-
-import entidades.Parada;
+import com.classes.DTO.Parada;
 
 public class ParadaDAO {
 	//253.000

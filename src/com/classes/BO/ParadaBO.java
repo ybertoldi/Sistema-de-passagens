@@ -1,9 +1,9 @@
 package com.classes.BO;
 
-import com.classes.DAO.ParadaDAO;
-import entidades.Parada;
-
 import java.util.List;
+
+import com.classes.DAO.ParadaDAO;
+import com.classes.DTO.Parada;
 
 public class ParadaBO {
 

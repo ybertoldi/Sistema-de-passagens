@@ -1,10 +1,9 @@
 package com.classes.BO;
 
-import com.classes.DAO.PassagemDAO;
-
-import entidades.Passagem;
-
 import java.util.List;
+
+import com.classes.DAO.PassagemDAO;
+import com.classes.DTO.Passagem;
 
 public class PassagemBO {
 

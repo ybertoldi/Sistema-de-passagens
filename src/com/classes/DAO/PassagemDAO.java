@@ -7,10 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.classes.Conexao.Conexao;
-
-import entidades.Passagem;
-import entidades.PontoParada;
-import entidades.Viagem;
+import com.classes.DTO.Passagem;
+import com.classes.DTO.PontoParada;
+import com.classes.DTO.Viagem;
 
 public class PassagemDAO {
 

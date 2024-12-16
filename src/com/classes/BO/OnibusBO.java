@@ -1,10 +1,9 @@
 package com.classes.BO;
 
-import com.classes.DAO.OnibusDAO;
-
-import entidades.Onibus;
-
 import java.util.List;
+
+import com.classes.DAO.OnibusDAO;
+import com.classes.DTO.Onibus;
 
 public class OnibusBO {
 

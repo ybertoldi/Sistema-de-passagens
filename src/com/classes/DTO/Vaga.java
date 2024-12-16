@@ -1,4 +1,4 @@
-package entidades;
+package com.classes.DTO;
 
 public class Vaga {
 	int id;

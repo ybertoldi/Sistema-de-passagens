@@ -1,18 +1,16 @@
 package com.classes.DAO;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.classes.Conexao.Conexao;
-
-import entidades.Admin;
-import entidades.Cliente;
-import entidades.Endereco;
-import entidades.Usuario;
+import com.classes.DTO.Admin;
+import com.classes.DTO.Cliente;
+import com.classes.DTO.Endereco;
+import com.classes.DTO.Usuario;
 
 public class UsuarioDAO {
 
