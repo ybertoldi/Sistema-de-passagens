@@ -21,5 +21,8 @@ O preço das viagens é dado para o cliente com base no terminal em que ele vai 
 
 O Admin pode ver todos os dados das viagens, dos clientes e dos ônibus que estão no sistema.
 
-
+# UML
 ![uml](https://github.com/user-attachments/assets/3daa8a9e-f1b3-4c3c-a853-4da1ace17445)
+
+# Banco de Dados
+![imagemDB](https://github.com/user-attachments/assets/0df6c7ea-c432-4cfa-b3b0-bbe9fc43a478)
