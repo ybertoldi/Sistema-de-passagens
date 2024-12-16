@@ -2,8 +2,8 @@
 
 # 1 Objetivo
 O sistema de passagens operará em desktop, com uma GUI feita em Java Swing. Ele deve atender os compradores e as empresas de ônibus. Para tal, teremos os seguintes modos de acesso:
-Cliente: Possui login e tem a capacidade de verificar passagens, comprar passagens, imprimir passagens e cancelar passagens.
-Admin: Também possui login e tem a capacidade de registrar novas viagens, atualizar viagens existentes, excluir viagens e verificar os dados pessoais dos clientes.
+- Cliente: Possui login e tem a capacidade de verificar passagens, comprar passagens, imprimir passagens e cancelar passagens.
+- Admin: Também possui login e tem a capacidade de registrar novas viagens, atualizar viagens existentes, excluir viagens e verificar os dados pessoais dos clientes.
 
 Ambos os modos de acesso são classes que herdam da classe pai Usuário, que contém seus dados pessoais:
 
